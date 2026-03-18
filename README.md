@@ -2,7 +2,7 @@
 
 `Sprint Leagues` is a competition layer for Adrena that upgrades the standard perp DEX leaderboard into a repeatable `72-hour` league format. The core idea is simple: keep the excitement that already drives Adrena volume, but make the game feel more fair, more readable, and harder to exploit.
 
-This prototype is designed around five advantages:
+Sprint Leagues is designed around five advantages:
 
 - realized trading performance
 - consistency over a short sprint window
@@ -47,36 +47,19 @@ npm run test
 
 ## Files
 
-- `src/App.tsx` - prototype UI
+- `src/App.tsx` - main app experience
 - `src/lib/scoring.ts` - competition scoring engine
 - `src/lib/scoring.test.ts` - unit tests
 - `src/lib/adrenaApi.ts` - typed helpers for confirmed Adrena public endpoints
-- `docs/competition-design.md` - submission design document
+- `docs/competition-design.md` - product and competition design
 - `docs/testing-guide.md` - solo testing checklist and pilot notes
 - `docs/integration-plan.md` - what is public vs. assumed in Adrena integration
-- `docs/final-submission.md` - exact submission structure
+- `docs/final-submission.md` - concise project summary and positioning
 
-## Suggested demo flow
+## Suggested walkthrough
 
 1. Show the hero and explain why current perp competitions are weak.
 2. Use the scenario lab to test whale sniping, wash-trading, and stricter enforcement.
 3. Walk through the division boards and compare clean traders vs. abusive patterns.
 4. Show the trader journey and operator journey sections.
 5. End on the Adrena API integration cards and the pilot/testing plan.
-
-## Submission package
-
-Use these files directly in the bounty submission:
-
-- `docs/competition-design.md`
-- `docs/integration-plan.md`
-- `docs/testing-guide.md`
-- `docs/pilot-runbook.md`
-- `docs/final-submission.md`
-- repository link or archive with the working app and scoring engine
-
-## Judge takeaway
-
-If a reviewer only remembers one thing, it should be this:
-
-`Sprint Leagues is not a brand-new game. It is a stronger competition layer on top of Adrena's existing loop.`

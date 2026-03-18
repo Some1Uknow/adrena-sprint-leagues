@@ -1,6 +1,6 @@
-# Adrena Sprint Leagues Final Submission Prototype
+# Adrena Sprint Leagues
 
-`Sprint Leagues` is a competition module proposal for Adrena that upgrades the standard perp DEX leaderboard into a repeatable `72-hour` league format. The core pitch is simple: keep the excitement that already drives Adrena volume, but make the game feel more fair, more readable, and harder to exploit.
+`Sprint Leagues` is a competition layer for Adrena that upgrades the standard perp DEX leaderboard into a repeatable `72-hour` league format. The core idea is simple: keep the excitement that already drives Adrena volume, but make the game feel more fair, more readable, and harder to exploit.
 
 This prototype is designed around five advantages:
 
@@ -10,11 +10,11 @@ This prototype is designed around five advantages:
 - quest and streak integration
 - explicit abuse prevention
 
-This repository is structured as a judged prototype, not a production-ready Adrena fork. The goal is to show a competition system Adrena could realistically ship without redesigning its trading stack.
+This repository presents Sprint Leagues as a product system Adrena could ship without redesigning its trading stack.
 
 ## What is included
 
-- Interactive competition prototype with self-test scenarios
+- Interactive competition app with self-test scenarios
 - Scoring engine with anti-abuse penalties
 - Division-based ranking snapshots
 - Architecture notes for Adrena integration
